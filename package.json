@@ -1,14 +1,21 @@
 {
-  "name": "mean_app",
-  "version": "1.0.0",
-  "description": "I TA for the CptS 121 class here at WSU, and I wanted students to have a way to ask me questions during lab while keeping anonymity because a lot of people have questions they are too scared to ask. I am hoping this app will be the solution to that problem.",
-  "main": "index.js",
+  "name": "MeanApp",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "mongoose": "^4.6.1"
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.4.1",
+    "express": "~4.13.4",
+    "express-session": "^1.14.1",
+    "morgan": "~1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "serve-favicon": "~2.3.0"
   }
 }
