@@ -1,0 +1,14 @@
+{
+  "name": "mean_app",
+  "version": "1.0.0",
+  "description": "I TA for the CptS 121 class here at WSU, and I wanted students to have a way to ask me questions during lab while keeping anonymity because a lot of people have questions they are too scared to ask. I am hoping this app will be the solution to that problem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.6.1"
+  }
+}

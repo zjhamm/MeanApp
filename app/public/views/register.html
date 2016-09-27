@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Chat App</title>
+	</head>
+	<body ng-app="chatApp">
+		<div id="main" class="container" ng-controller="authController">
+			<form class="form-auth" ng-submit="register()">
+				<h2>Register</h2>
+				<p class="text-warning">{{error_message}}</p>
+				<input type="username" ng-model="user.username" placeholder="Username" class="form-control"><br>
+				<input type="password" ng-model="user.password" placeholder="Password" class="form-control"><br>
+				<input type="submit" value="Register" class="btn btn-primary" />
+			</form>
+		</div>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	<script src="../javascripts/chatApp.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../stylesheets/style.css">
+</html>
